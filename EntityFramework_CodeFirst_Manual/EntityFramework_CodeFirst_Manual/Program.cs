@@ -36,6 +36,11 @@ namespace EntityFramework_CodeFirst_Manual
                     id, name, price, category);
             }
 
+            LinqDepiction.select();
+            LinqDepiction.selectResultToAnonyObject();
+            LinqDepiction.selectResultToAnonyObject2();
+            LinqDepiction.selectResultToClassObject();
+            LinqDepiction.selectNestedArray();
 
             Console.ReadKey();
         }
